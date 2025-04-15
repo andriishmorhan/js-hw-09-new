@@ -8,14 +8,13 @@
   display: flex;
   flex-direction: column;
   width: 360px;
-  height: 40px;
   gap: 8px;
   font-family: Montserrat;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 4%;
-  padding-bottom: 24px;
+  margin-bottom: 8px;
 }
 
 .label-message {
@@ -45,4 +44,15 @@
 
 .btn-form:hover {
   background-color: #6c8cff;
+}
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+  outline: none;
+  border: 2px solid #000000;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  border: 2px solid #808080;
+  border-radius: 4px;
 }
